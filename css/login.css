@@ -1,0 +1,41 @@
+
+body{
+    background-image: url('../img/galaxy.jpg');
+    background-size: cover;
+}
+form{
+    width: 400px;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+}
+
+input[type=text],input[type=password]{
+    width: 95%;
+    margin: auto;
+    
+}
+div.form-group{
+    padding-bottom: 2vh;
+}
+label{
+    padding-left: 1vw;
+}
+button{
+    background-color: indigo;
+    width: 60%;
+    margin-top: 5vh;
+    border: none;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+.error{color:#8b0000;background-color:#fff;border-radius:40px;border-style:solid;border-color:#8b0000;padding-right:10px;padding-left:10px;margin-top:1vh}
+img{
+    width: 90%;
+}
+p{
+    text-align: center;
+}

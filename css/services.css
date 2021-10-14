@@ -1,0 +1,156 @@
+nav{
+    background-color: black;
+}
+
+div.main{
+
+    padding-top: 45vh;
+}
+
+
+div.main-top p{
+    text-align: center;
+}
+div.main-top p.first{
+    font-size: 3em;
+}
+div.main-top p.second{
+
+    color: darkgrey;
+    padding-bottom:15vh;
+}
+div.section {
+
+    background-color: white;
+    
+}
+div.section img{
+    width: 100%;
+}
+
+div.section p.first{
+
+    text-transform: capitalize;
+    font-size: 2.5em;
+    padding-top:15vh;
+}
+
+div.section p.second{
+    color: darkgrey;
+}
+
+div.section div.container{
+    padding-top: 8vh;
+}
+div.section img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  div.section ig{
+    
+    margin-top: 0vh;
+    animation-name: icons;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    
+}
+@keyframes icons{
+
+    from{margin-top:0vh;}
+    to{margin-top: 1vh;}
+   
+}
+.color{
+
+    color: indigo;
+}
+
+div.main-end{
+
+    margin-top:20vh;
+    background: linear-gradient(to right,darkred,indigo);
+    width: 100%;
+    box-shadow: 0px 0px 5px 5px darkgrey;
+    padding-top: 20vh;
+}
+
+div.main-end p.first{
+
+    font-size: 2em;
+    color: white;
+    padding-top: 25vh;
+    
+}
+div.main-end p.second{
+
+    font-size: 1em;
+    color: white;
+    
+}
+
+div.main-end p{
+
+    text-align: center;
+}
+div.main-end img{
+    width: 100%;
+}
+
+div.main p.end {
+
+    text-align: center;
+}
+div.main p.end a{
+    background:linear-gradient(to right,rgb(5, 5, 88),rgb(36, 1, 61));
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+div.section div.row div.col-lg-6:nth-child(2){
+
+    text-align: end;
+    margin-top: 5vh;
+    padding-right: 10vw;
+}
+
+div.section div.row{
+
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width:992px){
+    div.row div.col-lg-6:nth-child(2){
+        text-align: initial;
+    }
+    div.section p.first{
+        padding-top:initial;
+    }
+}
